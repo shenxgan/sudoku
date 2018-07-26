@@ -88,7 +88,7 @@ def sudoku_puzzle_dibble(sudoku):
             flag += 1
             if ret == 0:  # 此次挖洞成功
                 i += 1
-                print sudoku_dibble, i
+                print sudoku_dibble, 81 - i
                 enable_choice.remove(random_index)
                 random.shuffle(enable_choice)
                 j = 0
